@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C84780233BF366008CDBB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C8477F233BF366008CDBB9 /* AppDelegate.swift */; };
+		23C84782233BF366008CDBB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C84781233BF366008CDBB9 /* ViewController.swift */; };
+		23C84785233BF366008CDBB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C84783233BF366008CDBB9 /* Main.storyboard */; };
+		23C84788233BF366008CDBB9 /* PigGame_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23C84786233BF366008CDBB9 /* PigGame_.xcdatamodeld */; };
+		23C8478A233BF366008CDBB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C84789233BF366008CDBB9 /* Assets.xcassets */; };
+		23C8478D233BF366008CDBB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C8478B233BF366008CDBB9 /* LaunchScreen.storyboard */; };
+		23C84798233BF366008CDBB9 /* PigGame_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C84797233BF366008CDBB9 /* PigGame_Tests.swift */; };
+		23C847A3233BF366008CDBB9 /* PigGame_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C847A2233BF366008CDBB9 /* PigGame_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23C84794233BF366008CDBB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C84774233BF366008CDBB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C8477B233BF366008CDBB9;
+			remoteInfo = "PigGame!";
+		};
+		23C8479F233BF366008CDBB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C84774233BF366008CDBB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C8477B233BF366008CDBB9;
+			remoteInfo = "PigGame!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C8477C233BF366008CDBB9 /* PigGame!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PigGame!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C8477F233BF366008CDBB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23C84781233BF366008CDBB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23C84784233BF366008CDBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23C84787233BF366008CDBB9 /* PigGame_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PigGame_.xcdatamodel; sourceTree = "<group>"; };
+		23C84789233BF366008CDBB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23C8478C233BF366008CDBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23C8478E233BF366008CDBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C84793233BF366008CDBB9 /* PigGame!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PigGame!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C84797233BF366008CDBB9 /* PigGame_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigGame_Tests.swift; sourceTree = "<group>"; };
+		23C84799233BF366008CDBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C8479E233BF366008CDBB9 /* PigGame!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PigGame!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C847A2233BF366008CDBB9 /* PigGame_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigGame_UITests.swift; sourceTree = "<group>"; };
+		23C847A4233BF366008CDBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23C84779233BF366008CDBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C84790233BF366008CDBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C8479B233BF366008CDBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C84773233BF366008CDBB9 = {
+			isa = PBXGroup;
+			children = (
+				23C8477E233BF366008CDBB9 /* PigGame! */,
+				23C84796233BF366008CDBB9 /* PigGame!Tests */,
+				23C847A1233BF366008CDBB9 /* PigGame!UITests */,
+				23C8477D233BF366008CDBB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23C8477D233BF366008CDBB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23C8477C233BF366008CDBB9 /* PigGame!.app */,
+				23C84793233BF366008CDBB9 /* PigGame!Tests.xctest */,
+				23C8479E233BF366008CDBB9 /* PigGame!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23C8477E233BF366008CDBB9 /* PigGame! */ = {
+			isa = PBXGroup;
+			children = (
+				23C8477F233BF366008CDBB9 /* AppDelegate.swift */,
+				23C84781233BF366008CDBB9 /* ViewController.swift */,
+				23C84783233BF366008CDBB9 /* Main.storyboard */,
+				23C84789233BF366008CDBB9 /* Assets.xcassets */,
+				23C8478B233BF366008CDBB9 /* LaunchScreen.storyboard */,
+				23C8478E233BF366008CDBB9 /* Info.plist */,
+				23C84786233BF366008CDBB9 /* PigGame_.xcdatamodeld */,
+			);
+			path = "PigGame!";
+			sourceTree = "<group>";
+		};
+		23C84796233BF366008CDBB9 /* PigGame!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				23C84797233BF366008CDBB9 /* PigGame_Tests.swift */,
+				23C84799233BF366008CDBB9 /* Info.plist */,
+			);
+			path = "PigGame!Tests";
+			sourceTree = "<group>";
+		};
+		23C847A1233BF366008CDBB9 /* PigGame!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				23C847A2233BF366008CDBB9 /* PigGame_UITests.swift */,
+				23C847A4233BF366008CDBB9 /* Info.plist */,
+			);
+			path = "PigGame!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23C8477B233BF366008CDBB9 /* PigGame! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C847A7233BF366008CDBB9 /* Build configuration list for PBXNativeTarget "PigGame!" */;
+			buildPhases = (
+				23C84778233BF366008CDBB9 /* Sources */,
+				23C84779233BF366008CDBB9 /* Frameworks */,
+				23C8477A233BF366008CDBB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PigGame!";
+			productName = "PigGame!";
+			productReference = 23C8477C233BF366008CDBB9 /* PigGame!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23C84792233BF366008CDBB9 /* PigGame!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C847AA233BF366008CDBB9 /* Build configuration list for PBXNativeTarget "PigGame!Tests" */;
+			buildPhases = (
+				23C8478F233BF366008CDBB9 /* Sources */,
+				23C84790233BF366008CDBB9 /* Frameworks */,
+				23C84791233BF366008CDBB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C84795233BF366008CDBB9 /* PBXTargetDependency */,
+			);
+			name = "PigGame!Tests";
+			productName = "PigGame!Tests";
+			productReference = 23C84793233BF366008CDBB9 /* PigGame!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23C8479D233BF366008CDBB9 /* PigGame!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C847AD233BF366008CDBB9 /* Build configuration list for PBXNativeTarget "PigGame!UITests" */;
+			buildPhases = (
+				23C8479A233BF366008CDBB9 /* Sources */,
+				23C8479B233BF366008CDBB9 /* Frameworks */,
+				23C8479C233BF366008CDBB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C847A0233BF366008CDBB9 /* PBXTargetDependency */,
+			);
+			name = "PigGame!UITests";
+			productName = "PigGame!UITests";
+			productReference = 23C8479E233BF366008CDBB9 /* PigGame!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23C84774233BF366008CDBB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Yechuri, Rishik V";
+				TargetAttributes = {
+					23C8477B233BF366008CDBB9 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					23C84792233BF366008CDBB9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 23C8477B233BF366008CDBB9;
+					};
+					23C8479D233BF366008CDBB9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 23C8477B233BF366008CDBB9;
+					};
+				};
+			};
+			buildConfigurationList = 23C84777233BF366008CDBB9 /* Build configuration list for PBXProject "PigGame!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23C84773233BF366008CDBB9;
+			productRefGroup = 23C8477D233BF366008CDBB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23C8477B233BF366008CDBB9 /* PigGame! */,
+				23C84792233BF366008CDBB9 /* PigGame!Tests */,
+				23C8479D233BF366008CDBB9 /* PigGame!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C8477A233BF366008CDBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C8478D233BF366008CDBB9 /* LaunchScreen.storyboard in Resources */,
+				23C8478A233BF366008CDBB9 /* Assets.xcassets in Resources */,
+				23C84785233BF366008CDBB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C84791233BF366008CDBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C8479C233BF366008CDBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C84778233BF366008CDBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C84782233BF366008CDBB9 /* ViewController.swift in Sources */,
+				23C84780233BF366008CDBB9 /* AppDelegate.swift in Sources */,
+				23C84788233BF366008CDBB9 /* PigGame_.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C8478F233BF366008CDBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C84798233BF366008CDBB9 /* PigGame_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C8479A233BF366008CDBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C847A3233BF366008CDBB9 /* PigGame_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23C84795233BF366008CDBB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C8477B233BF366008CDBB9 /* PigGame! */;
+			targetProxy = 23C84794233BF366008CDBB9 /* PBXContainerItemProxy */;
+		};
+		23C847A0233BF366008CDBB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C8477B233BF366008CDBB9 /* PigGame! */;
+			targetProxy = 23C8479F233BF366008CDBB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23C84783233BF366008CDBB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C84784233BF366008CDBB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23C8478B233BF366008CDBB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C8478C233BF366008CDBB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23C847A5233BF366008CDBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23C847A6233BF366008CDBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23C847A8233BF366008CDBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PigGame!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.PigGame-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23C847A9233BF366008CDBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PigGame!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.PigGame-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23C847AB233BF366008CDBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PigGame!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.PigGame-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PigGame!.app/PigGame!";
+			};
+			name = Debug;
+		};
+		23C847AC233BF366008CDBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PigGame!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.PigGame-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PigGame!.app/PigGame!";
+			};
+			name = Release;
+		};
+		23C847AE233BF366008CDBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PigGame!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.PigGame-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PigGame!";
+			};
+			name = Debug;
+		};
+		23C847AF233BF366008CDBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PigGame!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.PigGame-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PigGame!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23C84777233BF366008CDBB9 /* Build configuration list for PBXProject "PigGame!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C847A5233BF366008CDBB9 /* Debug */,
+				23C847A6233BF366008CDBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C847A7233BF366008CDBB9 /* Build configuration list for PBXNativeTarget "PigGame!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C847A8233BF366008CDBB9 /* Debug */,
+				23C847A9233BF366008CDBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C847AA233BF366008CDBB9 /* Build configuration list for PBXNativeTarget "PigGame!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C847AB233BF366008CDBB9 /* Debug */,
+				23C847AC233BF366008CDBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C847AD233BF366008CDBB9 /* Build configuration list for PBXNativeTarget "PigGame!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C847AE233BF366008CDBB9 /* Debug */,
+				23C847AF233BF366008CDBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23C84786233BF366008CDBB9 /* PigGame_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23C84787233BF366008CDBB9 /* PigGame_.xcdatamodel */,
+			);
+			currentVersion = 23C84787233BF366008CDBB9 /* PigGame_.xcdatamodel */;
+			path = PigGame_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23C84774233BF366008CDBB9 /* Project object */;
+}
