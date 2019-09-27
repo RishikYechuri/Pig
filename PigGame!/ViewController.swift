@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func StopAction(_ sender: Any) {
+    }
+    @IBOutlet weak var Stop: UIButton!
+    @IBOutlet weak var RollAgain: UIButton!
+    @IBAction func RollAgainAction(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hi")
