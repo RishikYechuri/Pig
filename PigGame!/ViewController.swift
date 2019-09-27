@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Hi")
         print("Another Test")
-        print("SUp man")
+        print("SUp man!!")
         // Do any additional setup after loading the view.
     }
 
